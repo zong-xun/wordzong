@@ -1,0 +1,22 @@
+{
+  "name": "work",
+  "version": "1.0.0",
+  "description": "tesst",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zong-xun/wordzong.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zong-xun/wordzong/issues"
+  },
+  "homepage": "https://github.com/zong-xun/wordzong#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
