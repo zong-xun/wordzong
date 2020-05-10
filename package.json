@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/zong-xun/wordzong#readme",
   "dependencies": {
-    "jquery": "^3.5.1"
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
