@@ -21,22 +21,20 @@
     </div>
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script>
+        let homeobj = {
+            type:['1','2','3'],
+            homename:[
+                {
+                  name:'1'  
+                },
+                {
+                    name:'2'
+                }
+            ]
+        }
+        let homebox = (obj)=> console.log(obj);
+        homebox( homeobj);
+        </script>
 
-        $(function(){
-            var odd = 0;
-            var new1 = 0;
-            $('body').on('click',function(){
-                console.log(new Date().getTime())
-                odd = new Date().getTime();
-                console.log(odd);
-                console.log(new1)
-                console.log(new1 - odd);
-            })
-            setInterval(function(){
-                new1 = new Date().getTime();
-            },1000)
-
-        })
-    </script>
 </body>
 </html>
